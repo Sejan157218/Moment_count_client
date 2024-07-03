@@ -10,11 +10,11 @@ const WatchCollectionsHome = () => {
     const [weatchCollectin, setWeatchCollectin] = useState([]);
 
 
-    // useEffect(() => {
-    //     fetch('https://ancient-river-07627.herokuapp.com/watchCollection')
-    //         .then(res => res.json())
-    //         .then(data => setWeatchCollectin(data))
-    // }, [])
+    useEffect(() => {
+        fetch('https://moment-count-backend.vercel.app/watch/best-selling/')
+            .then(res => res.json())
+            .then(data => setWeatchCollectin(data))
+    }, [])
     return (
         <Container>
             <h1 className="my-5">BEST SELLING</h1>

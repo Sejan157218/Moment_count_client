@@ -12,7 +12,7 @@ const ExploreCollection = () => {
 
 
     useEffect(() => {
-        fetch('https://ancient-river-07627.herokuapp.com/watchCollection')
+        fetch('https://moment-count-backend.vercel.app/watch/best-selling/')
             .then(res => res.json())
             .then(data => setWeatchCollectin(data))
     }, [])

@@ -23,7 +23,7 @@ const Header = () => {
 
         <Navbar collapseOnSelect expand="md" className={scroll ? "nav-container" : "nav-container-scroll"}>
             <Container>
-                <Navbar.Brand as={Link} to="/" className='header-h1'>𝔸𝕤𝕙 𝕄𝕠𝕞𝕖𝕟𝕥 ℂ𝕠𝕦𝕟𝕥</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className='header-h1'>𝕄𝕠𝕞𝕖𝕟𝕥 ℂ𝕠𝕦𝕟𝕥</Navbar.Brand>
 
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-start">
@@ -37,7 +37,7 @@ const Header = () => {
                 <Navbar.Collapse className="justify-content-end">
 
                     <Navbar.Text>
-                        <Nav className="me-auto  header-nav">
+                        {/* <Nav className="me-auto  header-nav">
                             {
                                 user.email ?
                                     <Navbar.Text style={{ display: 'flex' }}>
@@ -50,7 +50,7 @@ const Header = () => {
                                         <Nav.Link as={Link} to="/signup">/ Sign Up</Nav.Link>
                                     </Navbar.Text>
                             }
-                        </Nav>
+                        </Nav> */}
                     </Navbar.Text>
                 </Navbar.Collapse>
             </Container>

@@ -8,7 +8,7 @@
   transform: translate(-50%, -50%);
   transform-style: preserve-3d;
   perspective: 600px;
-  transition: 0.5s;
+  transition: 4s;
 }
 .watch-collection-container:hover .card-front {
   transform: rotateX(-180deg);
@@ -28,7 +28,7 @@
   background-color: #000000;
   backface-visibility: hidden;
   transform: rotateX(0deg);
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .card-back {
@@ -40,7 +40,7 @@
   background-color: #000000;
   backface-visibility: hidden;
   transform: rotateX(180deg);
-  transition: 0.s;
+  transition: 1s;
   color: #ffffff;
   text-align: center;
 }
